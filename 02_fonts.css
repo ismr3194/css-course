@@ -1,33 +1,32 @@
 /* 
 font-family - шрифт, 
 font-size - размер шрифта,
-line-height - ?,
-font-weight - начертание текста (аналог свойста strong в html),
+line-height - высота линии,
+font-weight - начертание текста (по умолчанию имеет свойство normal)(аналог свойста strong в html),
+text-decoration - декорация текста (подчеркнутый, зачеркнутый и тд)
+font-slyle: italic; - аналог тега в html <em></em>
 letter-spacing - растояние (отступы) между символами,
 word-spacing - растояние (отступы) между словами,
-
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    /* font-family: Vedana, Geneva, sans-serif; */
-    font-family: 'Roboto', sams-serif;
+    /* font-family: Verdana, Geneva, sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    line-height: 20px;
     font-weight: normal;
-    /* font: normal 20px 'Roboto', sans-serif; */
-    /* 400-normal, 900-bold */
-    /* text-decoration: underline; */
-    /* font-style:italic; аналог свойста em в html*/
-    /* letter-spacing:2px; */
+    /* font: normal 18px 'Roboto', sans-serif; */
+    line-height: 1.6em;
+    /* text-decoration: line-through; */
+    /* font-style: italic; */
+    /* letter-spacing: 2px; */
     /* word-spacing: 20px; */
-
 }
 
-.ccs p {
-    font-family: Vedana;
-    font-size: 40px;
+/* .css p {
+    font-size: 20px;
+    font-family: Verdana;
     font-weight: bold;
-}
+} */
 

@@ -5,29 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Course</title>
-    <style>
+    <!--<style> /*второй вариант, описываем стили в теге style (тег находится в head)*/
         body {
             background: #ddd;
         }
-    </style>
-    <link rel="stylesheet" href="01_selectors.css">
+    </style>-->
+    <link rel="stylesheet" href="01_selectors.css"> <!--третий вариант, подключаем файл со стилями*/-->
     <link rel="stylesheet" href="02_fonts.css">
+    <link rel="stylesheet" href="03_colors.css">
+    <link rel="stylesheet" href="04_borders.css">
 </head>
 <body>
+    <header id="header" style="border: 1px solid grey;"> <!--первый вариант, описываем стили прямо в тегах-->
+        <h3>Это очень крутой сайт!</h3>
+    </header>
 
-<header id="header" style="border: 1px solid grey;">
-    <h3>Это очень крутой сайт!</h3>
-</header>
+    <div class="card html">
+        <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, hic?</p>
+    </div>
 
-<div class="card html">
-    <h2>HTML</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, facilis?</p>
-</div>
+    <div class="card css">
+        <h2>CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vel.</p>
+    </div>
 
-<div class="card css">
-    <h2>CSS</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, facilis?</p>
-</div>
+    <div class="card">
+        <h2>Colors</h2>
+        
+        <h3 class="color-1">Color 1</h3>
+        <h3 class="color-2">Color 2</h3>
+        <h3 class="color-3">Color 3</h3>
+        <h3 class="color-4">Color 4</h3>
+        <h3 class="color-5">Color 5</h3>
+    </div>
 
+    <div>
+        <h2>Borders</h2>
+
+        <p class="border-1">Lorem ipsum dolor sit amet.</p>
+        <p class="border-2">Lorem ipsum dolor sit amet.</p>
+        <p class="border-3">Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="circle"></div>
+    
 </body>
 </html>
